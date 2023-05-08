@@ -54,3 +54,13 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+### Testing emails
+
+Start maildev server, then open http://localhost:1080/ in your browser.
+
+```bash
+npm run maildev
+```
+
+Make sure to use the default mailer configuration in development mode.
