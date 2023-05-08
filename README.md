@@ -4,6 +4,23 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+### Features
+
+- [x] Health check endpoint
+- [x] User registration, login, logout
+- [x] User email verification
+- [x] User password reset
+- [x] Mailer using MJML + ejs template
+- [x] Swagger
+
+### Used Technologies
+
+- [x] NestJS
+- [x] TypeORM
+- [x] PostgreSQL
+- [x] Passport
+- [x] JWT
+
 ## Installation
 
 ```bash
