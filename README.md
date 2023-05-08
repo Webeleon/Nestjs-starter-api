@@ -20,6 +20,8 @@
 - [x] PostgreSQL
 - [x] Passport
 - [x] JWT
+- [x] MJML
+- [x] EJS
 
 ## Installation
 

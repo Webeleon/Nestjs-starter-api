@@ -1,4 +1,4 @@
-import { comparePassword, hashPassword } from './hash-password';
+import { comparePassword, hashPassword } from '../../src/auth/hash-password';
 
 describe('[auth] hash and compare password', () => {
   const password = 'coco';

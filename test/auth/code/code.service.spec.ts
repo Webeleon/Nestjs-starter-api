@@ -1,12 +1,12 @@
-import { CodeService } from './code.service';
-import { Test, TestingModule } from '@nestjs/testing';
-import { UserService } from '../../user/user.service';
-import { pgMemDatasource } from '../../../test/helpers/pg-mem-datasource';
-import { AuthCode } from './auth-code.entity';
-import { NoUserNoAuthCodeException } from './exception/no-user-no-auth-code.exception';
-import { CodeType } from './code-type.enum';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
+import { CodeService } from '../../../src/auth/code/code.service';
+import { Test, TestingModule } from '@nestjs/testing';
+import { AuthCode } from '../../../src/auth/code/auth-code.entity';
+import { UserService } from '../../../src/user/user.service';
+import { pgMemDatasource } from '../../helpers/pg-mem-datasource';
+import { NoUserNoAuthCodeException } from '../../../src/auth/code/exception/no-user-no-auth-code.exception';
+import { CodeType } from '../../../src/auth/code/code-type.enum';
 
 describe('code service', () => {
   let authCodeService: CodeService;
