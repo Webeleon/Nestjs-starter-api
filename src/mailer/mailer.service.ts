@@ -40,7 +40,7 @@ export class MailerService {
       const msg = {
         to: user.email,
         from: this._mailerConfig.sender,
-        subject: 'Mama Qucha: confirm your email',
+        subject: '@Webeleon/Nestjs-starter-ap: confirm your email',
         html,
       };
 
@@ -59,7 +59,7 @@ export class MailerService {
     const msg = {
       to: email,
       from: this._mailerConfig.sender,
-      subject: 'Mama Qucha: reset your password',
+      subject: '@Webeleon/Nestjs-starter-api: reset your password',
       html,
     };
 
